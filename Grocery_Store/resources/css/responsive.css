@@ -1,0 +1,70 @@
+/* LAPTOP-DEVICE 1080px*/
+@media only screen and (max-width:1080px){
+    .btn {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    .btn-primary {
+        padding: .5rem;
+    }
+    .btn-secondary {
+        padding: .5rem;
+    }
+    .contact-section li {
+        margin: 0;
+    }
+    
+}
+/* TABLET-DEVICE 720px*/
+@media only screen and (width:768px){
+    h3 {
+        font-size: 1.4rem;
+    }
+    p {
+        font-size: 1.2rem;
+    }
+    .btn {
+        font-size: 1rem;
+    }
+    .top-section a {
+        font-size: 1.2rem;
+    }
+    .top-section .col-sm-2 {
+        padding: 0;
+    }
+    .nav-section .col-sm-4 {
+        padding-right: 0;
+    }
+    .nav-section .row .col-sm-6 .row .col-sm-4 .btn-dark {
+        font-size: 1rem;
+    }
+    .contact-section ul li i {
+        padding: .5rem;
+    }
+    .contact-section ul li a:link i::before {
+        font-size: 1.4rem;
+    }
+    .product .container img {
+        height: 8rem;
+        width: 6rem;
+    }
+}
+/* TABLET-DEVICE 720px*/
+@media only screen and (width:425px){
+    .nav-section .row .col-sm-6 .row{
+        margin-bottom: 2rem;
+    }
+    .nav-section .logo-sm{
+        width: 50% !important;
+    }
+    .nav-section .megamenu-sm{
+        width: 50% !important;
+    }
+    .nav-section .hf-search{
+        width: 60%;
+    }
+    .nav-section .hf-chart{
+        width: 40%;
+    }
+
+}
